@@ -1,0 +1,63 @@
+{
+  "name": "codebara-vscode-extension",
+  "displayName": "Codebara",
+  "description": "VS Code support for the Codebara desktop overlay companion.",
+  "version": "0.1.0",
+  "publisher": "local-dev",
+  "private": true,
+  "author": "SkyesMind",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkyesMind/codebara.git",
+    "directory": "extensions/vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/SkyesMind/codebara/issues"
+  },
+  "homepage": "https://github.com/SkyesMind/codebara/tree/main/extensions/vscode",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:codebara.summon",
+    "onCommand:codebara.hide",
+    "onCommand:codebara.say",
+    "onCommand:codebara.toggleMood",
+    "onStartupFinished"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "codebara.summon",
+        "title": "Codebara: Summon Capybara"
+      },
+      {
+        "command": "codebara.hide",
+        "title": "Codebara: Hide Capybara"
+      },
+      {
+        "command": "codebara.say",
+        "title": "Codebara: Say Something"
+      },
+      {
+        "command": "codebara.toggleMood",
+        "title": "Codebara: Toggle Mood"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "tsc --noEmit -p tsconfig.json",
+    "watch": "tsc -watch -p tsconfig.json",
+    "package": "vsce package --out codebara-vscode-0.1.0.vsix"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/vscode": "^1.90.0",
+    "@vscode/vsce": "^3.9.1"
+  }
+}
