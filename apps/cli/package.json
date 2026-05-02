@@ -1,0 +1,30 @@
+{
+  "name": "codebara",
+  "version": "0.1.0",
+  "private": true,
+  "author": "SkyesMind",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkyesMind/codebara.git",
+    "directory": "apps/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/SkyesMind/codebara/issues"
+  },
+  "homepage": "https://github.com/SkyesMind/codebara/tree/main/apps/cli",
+  "bin": {
+    "codebara": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "tsc --noEmit -p tsconfig.json",
+    "dev": "pnpm build && node dist/index.js"
+  },
+  "dependencies": {
+    "@codebara/shared": "workspace:*",
+    "electron": "^30.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30"
+  }
+}
