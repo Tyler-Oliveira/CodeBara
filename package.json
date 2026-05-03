@@ -1,0 +1,27 @@
+{
+  "name": "codebara-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Codebara desktop overlay companion with CLI and VS Code support.",
+  "author": "SkyesMind",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkyesMind/codebara.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SkyesMind/codebara/issues"
+  },
+  "homepage": "https://github.com/SkyesMind/codebara#readme",
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev:overlay": "pnpm --filter @codebara/overlay dev",
+    "dev:cli": "pnpm --filter @codebara/cli dev",
+    "dev:vscode": "pnpm --filter codebara-vscode-extension watch",
+    "build": "pnpm --filter @codebara/shared build && pnpm --filter @codebara/overlay build && pnpm --filter codebara build && pnpm --filter codebara-vscode-extension build",
+    "compile": "pnpm build",
+    "lint": "pnpm --filter @codebara/shared lint && pnpm --filter @codebara/overlay lint && pnpm --filter codebara lint && pnpm --filter codebara-vscode-extension lint"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
