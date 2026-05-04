@@ -1,0 +1,21 @@
+{
+  "name": "@codebara/shared",
+  "version": "0.1.0",
+  "private": true,
+  "author": "SkyesMind",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkyesMind/codebara.git",
+    "directory": "shared"
+  },
+  "bugs": {
+    "url": "https://github.com/SkyesMind/codebara/issues"
+  },
+  "homepage": "https://github.com/SkyesMind/codebara/tree/main/shared",
+  "main": "dist/events.js",
+  "types": "dist/events.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "tsc --noEmit -p tsconfig.json"
+  }
+}
