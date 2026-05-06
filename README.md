@@ -1,7 +1,5 @@
 # Codebara
 
-```RUqdmFdZbdnNEUvvkSqj5AtjGNQUHcSb62oB4ztpump```
-
 <p align="center">
   <img src="apps/overlay/assets/capybara/Welcome.png" width="700">
 </p>
