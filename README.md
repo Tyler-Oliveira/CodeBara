@@ -6,7 +6,6 @@
 
 Codebara is a tiny animated capybara desktop companion for developers. It runs as a transparent always-on-top Electron overlay, can be summoned from the terminal, and can react to VS Code editor diagnostics through a local localhost bridge.
 
-Repository: https://github.com/SkyesMind/Code-bara
 
 <p align="center">
   <img src="apps/overlay/assets/capybara/capyyy-demo.gif" width="900" alt="Codebara demo">
