@@ -1,4 +1,4 @@
-# Codebara
+# Codebara - I DON'T HAVE ANY PUMPFUN COINS
 
 <p align="center">
   <img src="apps/overlay/assets/capybara/Welcome.png" width="700">
