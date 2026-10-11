@@ -1,10 +1,10 @@
-# Codebara - I DON'T HAVE ANY PUMPFUN COINS
+# Codebara - I DON'T HAVE ANY PUMPFUN COINS, @desvandev IS A MEXICAN SCAMMER DO NOT BUY THAT COIN
 
 <p align="center">
   <img src="apps/overlay/assets/capybara/Welcome.png" width="700">
 </p>
 
-Codebara is a tiny animated capybara desktop companion for developers. It runs as a transparent always-on-top Electron overlay, can be summoned from the terminal, and can react to VS Code editor diagnostics through a local localhost bridge.
+Codebara is a tiny animated capybara desktop companion for developers. It runs as a transparent always-on-top Electron overlay, can be summoned from the terminal, and can react to VS Code editor diagnostics through a local localhost bridge. 
 
 
 <p align="center">
