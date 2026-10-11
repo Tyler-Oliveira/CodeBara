@@ -1,4 +1,4 @@
-# Codebara - I DON'T HAVE ANY PUMPFUN COINS, @desvandev IS A MEXICAN SCAMMER DO NOT BUY THAT COIN
+# Codebara
 
 <p align="center">
   <img src="apps/overlay/assets/capybara/Welcome.png" width="700">
